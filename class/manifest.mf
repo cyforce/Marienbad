@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: MarienbadJvsO_AUDEBERT_TOUZEAU
+Class-Path: SimpleInput
