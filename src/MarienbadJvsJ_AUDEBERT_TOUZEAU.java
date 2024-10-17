@@ -24,6 +24,9 @@
  * Utilisation :
  * Pour jouer au jeu, exécutez la méthode main. Le jeu demandera les noms des joueurs et le nombre de lignes,
  * puis procédera à la boucle de jeu jusqu'à ce qu'un joueur gagne. Après la fin du jeu, les joueurs peuvent choisir de rejouer ou de quitter.
+ * 
+ * @author Célian TOUZEAU
+ * @autor Giovani AUDEBERT
  */
 public class MarienbadJvsJ_AUDEBERT_TOUZEAU {
     //Colors from :
@@ -344,10 +347,5 @@ public class MarienbadJvsJ_AUDEBERT_TOUZEAU {
             }
         }
         return res;
-    }
-
-    public static void main(String[] args) {
-        MarienbadJvsJ_AUDEBERT_TOUZEAU jeu = new MarienbadJvsJ_AUDEBERT_TOUZEAU();
-        jeu.principal();
     }
 }

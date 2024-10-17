@@ -22,6 +22,9 @@
  * - jeuFini(int[] tas) : Vérifie si le jeu est terminé.
  * - genererTas(int nbLignes) : Génère la répartition initiale des bâtons en tas.
  * - clear() : Efface l'écran de la console.
+ * 
+ * @author Célian TOUZEAU
+ * @autor Giovani AUDEBERT
  */
 class MarienbadJvsO_AUDEBERT_TOUZEAU {
     //Colors from :
@@ -707,10 +710,5 @@ class MarienbadJvsO_AUDEBERT_TOUZEAU {
             }
         }
         return res;
-    }
-
-    public static void main(String[] args) {
-        MarienbadJvsO_AUDEBERT_TOUZEAU jeu = new MarienbadJvsO_AUDEBERT_TOUZEAU();
-        jeu.principal();
     }
 }
